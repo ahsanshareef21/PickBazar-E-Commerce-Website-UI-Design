@@ -2,9 +2,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Contact, Header, Main, Registor, Silder } from './component/Index';
+import { Contact, Header, Main, Registor, } from './component/Index';
 import Join from "./component/Join/Join";
-import Faq from "./component/Fqa/Faq";
+import Faq from "./component/Faq/Faq";
 
 function App() {
   return (
@@ -17,13 +17,9 @@ function App() {
     <Route path="/registor" element={<Registor/>}/>
     <Route path="/join" element={<Join/>}/>
     <Route path="/fqa" element={<Faq/>}/>
-
-
-    
+  
     </Routes>
-    
-    {/* <Silder/> */}
-    </BrowserRouter>
+     </BrowserRouter>
     </>
   );
 }

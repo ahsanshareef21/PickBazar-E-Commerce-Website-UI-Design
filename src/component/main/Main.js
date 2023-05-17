@@ -2,23 +2,39 @@ import React from 'react'
 import '../main/main.css'
 import Silder  from '../Slider/Silder';
 import Mtop from '../Mtop/Mtop';
-const img1="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F1%2FApples.jpg&w=1920&q=75";
-const img2="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F2%2FBabySpinach.jpg&w=1920&q=75";
-const img3="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F3%2Fblueberries.jpg&w=1920&q=75";
+
+const img1 =
+  "https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F200%2Fkhong_guan_premium_marie.jpg&w=1920&q=75";
+
+const img2 =
+  "https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F197%2FJammie_Dodgers.jpg&w=1920&q=75";
+
+const img3 =
+  "https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F188%2Fbeef_xkxhnb.jpg&w=1920&q=75";
+
 const img4="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F4%2FBrusselsSprouts.jpg&w=1920&q=75"
-const img5="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F5%2FCelerySticks.jpg&w=1920&q=75"
+
+const img5 =
+  "https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F425%2FRound-Cake_rfsrkr.png&w=1920&q=75";
+
 const img6="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F6%2Fclementines.jpg&w=1920&q=75"
+
 const img7="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F7%2FCorn.jpg&w=1920&q=75"
-const img8="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F8%2FCucumber.jpg&w=1920&q=75"
+
+const img8 =
+  "https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F197%2FJammie_Dodgers.jpg&w=1920&q=75";
+
 const img9="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F10%2FDates.jpg&w=1920&q=75"
-const img10="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F11%2FFrenchGreenBeans.jpg&w=1920&q=75"
+
+const img10 =
+  "https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F197%2FJammie_Dodgers.jpg&w=1920&q=75";
 export default function Main() {
   return (
     <div>
     <Mtop/>
     <Silder/>
      <div className="d-flex mt-4" >
-      <div className="col-3">
+      <div className="col-2">
       <div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item w-100">
     <h2 class="accordion-header" id="flush-headingOne">
@@ -186,161 +202,108 @@ export default function Main() {
 </div>
 
       </div>
-      <div className="col-7 ms-5">
+      <div className="col-10 ms-5">
       <div className='row m-2'>
 
       <div class="card m-2" style={{width:"15rem",}}>
       <img src={img1} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button  style={{width:"100%"}}>Add</button>
+          <p class="card-text">$4.00</p>
+          <h5 class="card-title">Items Name</h5>
+          <button  style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
       <div class="card m-2" style={{width:"15rem"}}>
       <img src={img2} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
       <div class="card m-2" style={{width:"15rem"}}>
       <img src={img3} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
       <div class="card m-2" style={{width:"15rem"}}>
       <img src={img4} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
       <div class="card m-2" style={{width:"15rem"}}>
       <img src={img5} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
       <div class="card m-2" style={{width:"15rem"}}>
       <img src={img6} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
       <div class="card m-2" style={{width:"15rem"}}>
       <img src={img7} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
       <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img8} alt="" />
+      <img src={img2} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
       <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img9} alt="" />
+      <img src={img6} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
-        </div>
-      </div>
-      <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img10} alt="" />
-        <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
-        </div>
-      </div>
-      {/* <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img1} alt="" />
-        <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
       <div class="card m-2" style={{width:"15rem"}}>
       <img src={img1} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
+
       <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img1} alt="" />
+      <img src={img7} alt="" />
         <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
+        </div>
+        </div>
+     
+      <div class="card m-2" style={{width:"15rem"}}>
+      <img src={img3} alt="" />
+        <div class="card-body">
+          <p class="card-text">$2.09</p>
+          <h5 class="card-title">Items Name</h5>
+          <button style={{width:"100%"}}>Add To Cart</button>
         </div>
       </div>
-      <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img1} alt="" />
-        <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
-        </div>
-      </div>
-      <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img1} alt="" />
-        <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
-        </div>
-      </div>
-      <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img1} alt="" />
-        <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
-        </div>
-      </div>
-      <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img1} alt="" />
-        <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
-        </div>
-      </div>
-      <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img1} alt="" />
-        <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
-        </div>
-      </div>
-      <div class="card m-2" style={{width:"15rem"}}>
-      <img src={img1} alt="" />
-        <div class="card-body">
-          <p class="card-text">$1.60</p>
-          <h5 class="card-title">Apple</h5>
-          <button style={{width:"100%"}}>Add</button>
-        </div>
-      </div> */}
+
       </div>
       </div>
      </div>

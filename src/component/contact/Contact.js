@@ -30,11 +30,11 @@ export default function Contact() {
             <img src={img1} className="img-fluid" alt="" style={{backgroundSize:"cover"}}/>
             <div className="mt-2">
               <h4>Address</h4>
-              <p>NY, United States</p>
+              <p>Lahore , Pakistan</p>
             </div>
             <div className="mt-2">
               <h4>Phone</h4>
-              <p>+129290122122</p>
+              <p>+12345567</p>
             </div>
             <div className="mt-2 d-flex justify-content-between">
               <div>
@@ -46,7 +46,7 @@ export default function Contact() {
               </div>
             </div>
             <div className="mt-2">
-                <h4>Follow</h4>
+                <h4>Follow US</h4>
                 <BsFacebook className="m-2" size={30}/> 
                 <AiFillTwitterCircle className="m-2" size={30} />
                 <AiOutlineInstagram className="m-2" size={30}/>
@@ -54,7 +54,7 @@ export default function Contact() {
           </div>
 
           <div className="col-lg-8 m-3 p-5" style={{ backgroundColor: "white"}}>
-            <h4>Questions, Comments, Or Concerns?</h4>
+            <h4> If You Have Any Query Contact US</h4>
             <form>
               <div className="d-flex ">
                 <div class="mb-3  w-50 m-2">

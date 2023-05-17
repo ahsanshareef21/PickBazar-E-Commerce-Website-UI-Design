@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./header.css";
 import { Link } from "react-router-dom";
 export default function Header() {
@@ -7,9 +8,17 @@ export default function Header() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
         <div className="container-fluid">
           <Link className="navbar-brand" to={"/"}>
-            <span className="pick fs-3 fw-bolder">Pick</span>
-            <span className="bazar fs-3 fw-bolder text-success">Bazar</span>
+            {/* <span className="pick fs-3 fw-bolder">Pick</span>
+            <span className="bazar fs-3 fw-bolder text-success">Bazar</span> */}
           </Link>
+
+          <img
+            className="avatar"
+            width={150}
+            height={30}
+            src="https://pickbazar-react.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F860%2FPickBazar.png&w=1920&q=75"
+            alt="Gregorio Y. Zara"
+          />
 
           <button
             className="navbar-toggler"
